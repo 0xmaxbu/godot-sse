@@ -1,0 +1,16 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1771336030
+simple_test_reconnect.gd::GDScript::2783372626112305909::1771335104::0::1::::<>Node<><>0<>0<><>::
+simple_test_reconnect.tscn::PackedScene::-1::1771335110::0::1::::<><><>0<>0<><>::res://simple_test_reconnect.gd
+test_scene.tscn::PackedScene::-1::1771334531::0::1::::<><><>0<>0<><>::res://../tests/gdscript/test_step4_integration.gd
+test_sse_client.gd::GDScript::8495150253666259828::1771333851::0::1::::<>Node<><>0<>0<><>::
+test_step5.tscn::PackedScene::5472118014230148159::1771335009::0::1::::<><><>0<>0<><>::res://../tests/gdscript/test_step5_reconnection.gd
+::res://addons/::1771336030
+::res://addons/sse_client/::1771335776
+plugin.cfg::TextFile::-1::1771335773::0::1::::<><><>0<>0<><>::
+plugin.gd::GDScript::4986658053837373920::1771335776::0::1::::<>EditorPlugin<><>0<>1<><>::
+::res://bin/::1771333772
+sse_client.gdextension::GDExtension::9010178894915838002::1771331817::0::1::::<><><>0<>0<><>::
+::res://bin/libsse_client.macos.template_debug.framework/::1771334984
+::res://examples/::1771335808
+ai_agent_chat.gd::GDScript::694385871498232855::1771335808::0::1::::<>Control<><>0<>0<><>::

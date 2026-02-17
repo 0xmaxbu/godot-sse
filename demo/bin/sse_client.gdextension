@@ -1,0 +1,12 @@
+[configuration]
+entry_symbol = "sse_client_library_init"
+compatibility_minimum = "4.3"
+reloadable = true
+
+[libraries]
+linux.debug.x86_64 = "res://bin/libsse_client.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://bin/libsse_client.linux.template_release.x86_64.so"
+windows.debug.x86_64 = "res://bin/libsse_client.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://bin/libsse_client.windows.template_release.x86_64.dll"
+macos.debug = "res://bin/libsse_client.macos.template_debug.framework"
+macos.release = "res://bin/libsse_client.macos.template_release.framework"
