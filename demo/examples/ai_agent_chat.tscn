@@ -1,0 +1,68 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjd8wxvqkx5yp"]
+
+[ext_resource type="Script" path="res://examples/ai_agent_chat.gd" id="1_abc123"]
+
+[node name="AIChatExample" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="OutputPanel" type="PanelContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ChatOutput" type="RichTextLabel" parent="VBoxContainer/OutputPanel"]
+layout_mode = 2
+bbcode_enabled = true
+text = "[b][color=cyan]AI Agent Chat Example[/color][/b]
+
+This example demonstrates SSEClient streaming with OpenAI-compatible APIs.
+
+Enter a message below and click Send to start streaming.
+"
+fit_content = true
+scroll_active = true
+
+[node name="InputPanel" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="MessageInput" type="TextEdit" parent="VBoxContainer/InputPanel"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Type your message here..."
+
+[node name="SendButton" type="Button" parent="VBoxContainer/InputPanel"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "Send"
+
+[node name="StatusBar" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="StatusLabel" type="Label" parent="VBoxContainer/StatusBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Ready"
+
+[node name="ClearButton" type="Button" parent="VBoxContainer/StatusBar"]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+text = "Clear Chat"
+
+[node name="SSEClient" type="SSEClient" parent="."]
+process_mode = 2
