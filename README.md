@@ -1,5 +1,7 @@
 # Godot SSE Client GDExtension
 
+[English](README.md) | [中文](README.zh.md)
+
 A production-ready Server-Sent Events (SSE) Client implementation for Godot 4.3+. Enables real-time streaming communication with AI agents and SSE-compatible servers.
 
 ## Features
@@ -39,6 +41,8 @@ A production-ready Server-Sent Events (SSE) Client implementation for Godot 4.3+
    - Copy `demo/bin/sse_client.gdextension` to your project's `bin/` folder
    - Include the native library files for your target platforms
    - Or simply copy the entire `demo/` folder as a reference project
+
+   For detailed Godot usage and plugin instructions, see `docs/GODOT_USAGE.en.md`.
 
 ### Using as a Plugin
 

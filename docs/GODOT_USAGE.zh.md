@@ -1,6 +1,6 @@
 # Godot 使用说明 — SSE Client GDExtension
 
-[English](GODOT_USAGE.en.md) | [中文](GODOT_USAGE.md)
+[English](GODOT_USAGE.en.md) | [中文](GODOT_USAGE.zh.md)
 
 简短说明：本说明展示如何在 Godot 项目与编辑器插件中使用 `SSEClient` 扩展（示例和集成测试均包含于 `demo/` 与 `tests/`）。
 

@@ -1,6 +1,6 @@
 # Godot 4.3+ SSE Client GDExtension — 完整开发计划（修订版）
 
-[English](SSE.en.md) | [中文](SSE.md)
+[English](SSE.en.md) | [中文](SSE.zh.md)
 
 ---
 

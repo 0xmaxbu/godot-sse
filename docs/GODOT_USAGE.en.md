@@ -1,6 +1,6 @@
 # Godot Usage — SSE Client GDExtension
 
-[English](GODOT_USAGE.en.md) | [中文](GODOT_USAGE.md)
+[English](GODOT_USAGE.en.md) | [中文](GODOT_USAGE.zh.md)
 
 Short summary: this document shows how to use the native `SSEClient` extension inside Godot projects and via the editor plugin. Example scenes and integration tests live in `demo/` and `tests/`.
 

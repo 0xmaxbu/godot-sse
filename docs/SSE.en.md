@@ -1,6 +1,6 @@
 # Godot 4.3+ SSE Client GDExtension — Complete development plan (revised)
 
-[English](SSE.en.md) | [中文](SSE.md)
+[English](SSE.en.md) | [中文](SSE.zh.md)
 
 ---
 
@@ -99,4 +99,4 @@ The repository includes a small Python mock server used by integration tests: `t
 
 ---
 
-If you need the original Chinese version, see `SSE.md`.
+If you need the original Chinese version, see `SSE.zh.md`. 
